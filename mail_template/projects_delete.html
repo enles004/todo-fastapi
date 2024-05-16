@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Deletion Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Project Deletion Notification</h1>
+        <p>Hello {{ username }},</p>
+        <p>We regret to inform you that the project "{{ name }}" is scheduled for deletion on {{ deletion_date }}.</p>
+        <p>This action is irreversible, and all data associated with the project will be permanently deleted. Please ensure that you have backed up any important information before the deletion date.</p>
+        <p>If you have any concerns or questions regarding this deletion, please contact our support team at kaihau2k4@gmail.com.</p>
+        <p>Thank you for your understanding.</p>
+        <p>Best regards,<br>Your Project Management Team</p>
+    </div>
+</body>
+</html>
